@@ -9,7 +9,7 @@
 #### 了解我们的产品
 
 <p align="center">
-<img src="https://s3.ax1x.com/2021/01/26/sOReyD.png" alt="微信小程序" width="824.5" height="400">
+<img src="https://s3.ax1x.com/2021/01/26/sOReyD.png" alt="微信小程序" width="824.5" height="auto">
 </p>
 
 #### 体验我们的产品
