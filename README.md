@@ -8,13 +8,9 @@
 
 #### 了解我们的产品
 
-<div class="product-show" style="display: flex;justify-content: center;align-items: center;-webkit-transform: translateY(.3rem);transform: translateY(.3rem);margin-top: 1rem;">
-<img class="product-show-item iphone1" src="https://s1.ax1x.com/2020/07/29/aVBv4g.png" alt="" style="z-index: 5;width: 14rem;height: 28rem;margin-right: -3rem;">
-<img class="product-show-item iphone2" src="https://s1.ax1x.com/2020/07/29/aVDpgs.png" alt="" style="z-index: 4;width: 14rem;height: 28rem;margin-right: -3rem;">
-<img class="product-show-item iphone3" src="https://s1.ax1x.com/2020/07/29/aVDiD0.png" alt="" style="z-index: 3;width: 14rem;height: 28rem;margin-right: -3rem;">
-<img class="product-show-item iphone4" src="https://s1.ax1x.com/2020/07/29/aVDAET.png" alt="" style="z-index: 2;width: 14rem;height: 28rem;margin-right: -3rem;">
-<img class="product-show-item iphone5" src="https://s1.ax1x.com/2020/07/29/aVDV5F.png" alt="" style="z-index: 1;width: 14rem;height: 28rem;margin-right: -3rem;">
-</div>
+<p align="center">
+<img src="https://s3.ax1x.com/2021/01/26/sOReyD.png" alt="微信小程序" width="680" height="330">
+</p>
 
 #### 体验我们的产品
 
