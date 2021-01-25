@@ -106,7 +106,7 @@ project
 
 请认真阅读并遵守以下开源协议
 
-`AGPLv3` [GNU Affero General Public License v3.0](https://github.com/GreenPomelo/Undergraduate/blob/master/LICENSE)
+`AGPLv3` [GNU Affero General Public License v3.0](https://github.com/ZzzhangLK/in-glut/blob/master/LICENSE)
 
 #### 桂林理工大学易班学生工作站开源计划：
 
