@@ -127,11 +127,10 @@ project
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/solojiang"><img src="https://github.com/solojiang.png?s=64" width="100px;"/><br /><sub><b>狒狒神</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Bosspwn"><img src="https://github.com/Bosspwn.png?s=64" width="100px;"/><br /><sub><b>Boss Pwn</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/flytam"><img src="https://github.com/flytam.png?s=64" width="100px;"/><br /><sub><b>Flytam</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/GooeyNyan"><img src="https://github.com/GooeyNyan.png?s=64" width="100px;"/><br /><sub><b>GooeyNyan</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/UZIhuhuhu"><img src="https://github.com/UZIhuhuhu.png?s=64" width="100px;"/><br /><sub><b>WynnXin</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/niffler-bkkkk"><img src="https://github.com/niffler-bkkkkk.png?s=64" width="100px;"/><br /><sub><b>niffler-bkkkk</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/chrrg"><img src="https://github.com/chrrg.png?s=64" width="100px;"/><br /><sub><b>CH</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ZzzhangLK"><img src="https://github.com/ZzzhangLK.png?s=64" width="100px;"/><br /><sub><b>ZzzhangLK</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/GMYXDS"><img src="https://github.com/GMYXDS.png?s=64" width="100px;"/><br /><sub><b>GMYXDS</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/FaithZM"><img src="https://github.com/FaithZM.png?s=64" width="100px;"/><br /><sub><b>ZM</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Coloryr"><img src="https://github.com/Coloryr.png?s=64" width="100px;"/><br /><sub><b>Color_yr</b></sub></a><br /></td>
   </tr>
 </table>
