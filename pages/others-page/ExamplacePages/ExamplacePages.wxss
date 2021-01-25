@@ -1,0 +1,94 @@
+/* .top_img{
+	background-image:url(https://yiban.glut.edu.cn/glutlife/examplace/img/bg.png);
+	background-size:100% 100%;
+	width:100%;
+	height:185px;
+	position:relative;
+	z-index:1;
+}
+.time{
+	height:30px;
+	width:100%;
+	position:relative;
+	background-color:rgba(202,240,253,0.3);
+	top:-10px;
+}
+.today{
+	position:absolute;
+	font-size:13px;
+	color:rgb(243,134,16);
+	text-align:center;
+	left:50%;
+	right:50%;
+	transform: translate(-50%, -50%);
+	top:50%;
+	width:125px;
+}
+.exam{
+	height:85px;
+	width:90%;
+	position:relative;
+	margin:0 auto;
+	border-bottom:1px solid #dddddd;
+	top:-10px;
+	color: #999;
+}
+.exam_name{
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.exam_state{
+	font-size:12px;
+	font-weight:bold;
+	border: 1px solid #d9d9d9;
+  background-color: transparent;
+  padding: 0.3em 0.35em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.15em;
+  display: inline-block;
+  margin-left:10px;
+  height:12px !important;
+  line-height:12px !important;
+}
+.exam_text{
+	font-size:12px;
+	position:absolute;
+	top:10px;
+	width:100%;
+	height:100%;
+}
+.exam_type{
+	position:absolute;
+	right:0;
+	top:25%;
+	font-weight: bold;
+	font-size:15px;
+}
+.exam_time{
+	position:absolute;
+	left:15px;
+}
+.exam_place{
+	position:absolute;
+	left:15px;
+	top:50px;
+}
+.exam_time_img{
+	background-image:url(https://yiban.glut.edu.cn/zlk/image/examplace/time-circle.png);
+	background-size:100% 100%;
+	width:14px;
+	height:14px;
+	position:absolute;
+	top:28px;
+}
+.exam_place_img{
+	background-image:url(https://yiban.glut.edu.cn/zlk/image/examplace/location.png);
+	background-size:100% 100%;
+	width:14px;
+	height:14px;
+	position:absolute;
+	top:51px;
+} */

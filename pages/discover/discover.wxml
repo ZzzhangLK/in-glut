@@ -1,0 +1,30 @@
+<view class="tab">
+    <view class="tab-item {{type=='schoolnotice'?'active':''}}" bindtap="news" data-type="schoolnotice">桂工要闻</view>
+    <view class="tab-item {{type=='weixin'?'active':''}}" bindtap="news" data-type="weixin">学工在线</view>
+    <view class="tab-item {{type=='xgnotice'?'active':''}}" bindtap="news" data-type="xgnotice">学工动态</view>
+    <view class="tab-item {{type=='collegeactivity'?'active':''}}" bindtap="news" data-type="collegeactivity">校园活动</view>
+    <view class="tab-item {{type=='yibannews'?'active':''}}" bindtap="news" data-type="yibannews">易班动态</view>
+		<view class="tab-item {{type=='jwnotice'?'active':''}}" bindtap="news" data-type="jwnotice">教务公告</view>
+</view>
+<view class="list_none" wx:if="{{type!='weixin'&&rss.list[type].list==''}}">
+  <view class="list_none_img"></view>
+  <view class="list_none_text">哎呀，似乎没有东西呢</view>
+</view>
+<view class="article {{item['content']==''?'low_height':''}}" bindtap="articlepages" wx:for="{{type!='weixin'&&rss.list[type].list}}" data-type="{{type}}" data-id="{{item['id']}}">
+  <view class="article_img" style="background-image:url({{item['img']}});" wx:if="{{type=='yibannews'&&item['img']!=''}}"></view>
+  <view class="article_text {{type!='yibannews'?'no_left':''}}">
+  	<view class="article_title {{type!='yibannews'?'big_width':''}}">{{item['title']}}</view>
+    <view class="article_text_desc {{type!='yibannews'?'big_width':''}}">{{item['content']}}</view>
+  </view>
+  <view class="article_time">{{item['time']}}</view>
+</view>
+<!-- 学工在线 -->
+<view class="article {{item['content']==''?'low_height':''}}" bindtap="tweets" wx:for="{{type=='weixin'&&rss.list[type].list}}"  data-link="{{item['other']['url']}}">
+  <view class="article_img" style="background-image:url({{item['img']}});" wx:if="{{type=='yibannews'&&item['img']!=''}}"></view>
+  <view class="article_text {{type!='yibannews'?'no_left':''}}">
+  	<view class="article_title {{type!='yibannews'?'big_width':''}}">{{item['title']}}</view>
+    <view class="article_text_desc {{type!='yibannews'?'big_width':''}}">{{item['content']}}</view>
+  </view>
+  <view class="article_time">{{item['time']}}</view>
+</view>
+<!-- 学工在线 -->

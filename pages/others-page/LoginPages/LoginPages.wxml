@@ -1,0 +1,19 @@
+<view class="block deg"></view>
+<view class="block1 deg"></view>
+<view class="logo"></view>
+<view class="hello">欢迎使用</view>
+<view class="title">in桂工 · 小程序</view>
+<view class="login">登录</view>
+<view class="please">请输入易班或教务处账号</view>
+<form class="input" bindsubmit='loginyiban'>
+	<input type="num" name="phone" class="phone_input" placeholder="请输入账号" bindinput ="userNameInput"/>
+	<input type="password" name="password" class="password_input" placeholder="请输入密码" bindinput ="passWdInput"/>
+</form>
+<view class="account_issue">
+  <view class="none" bindtap="account">没有账号？</view>
+  <view class="account_issue_mid">  |  </view>
+  <view class="lost" bindtap="password">忘记密码</view>
+</view>
+<view class="guest" bindtap="guestyiban">游客登录</view>
+<view class="into" bindtap="loginyiban"></view>
+<view class="privacy" bindtap="agreement">用户协议  |  隐私政策</view>

@@ -1,0 +1,42 @@
+<view class="my">
+  <view class="userinfo-avatar">
+    <open-data type="userAvatarUrl" class="head"></open-data>
+  </view>
+	<view class="text">
+		<view class="nick"><open-data type="userNickName"></open-data></view>
+		<view class="id">ID：<text>{{userid}}</text></view>
+		<view class="phone">学号：<text>{{data.xh}}</text></view>
+	</view>
+  <view class="beta">Release Preview</view>
+</view>
+<view class="table">
+	<view class="function" bindtap="openapp" data-color="#0084FF"data-hash="e84312e457bc7c039b80cb9f77420a0866121e4f">
+		<view class="img a"></view>
+		<view class="name">帮助与反馈</view>
+		<view class="open"></view>
+	</view>
+	<view class="function" bindtap="aboutpage">
+		<view class="img b"></view>
+		<view class="name">关于我们</view>
+		<view class="open"></view>
+	</view>
+	<view class="function" bindtap="openapp" data-color="#76E4FF"data-hash="66a7a46a5f6301d468c143bc539c78b4fe91ff8c">
+		<view class="img c"></view>
+		<view class="name">更新日志</view>
+		<view class="open"></view>
+	</view>
+  <button class="function" open-type="share">
+		<view class="img e"></view>
+		<view class="name">推荐给朋友</view>
+		<view class="open"></view>
+	</button>
+</view>
+<view class="quit" bindtap="loginpage">退出登录</view>
+<view id="footer" style="top:20px;margin:0 auto;width:100%;left:0;position:relative;">
+	<view class="copyright" style="font-size:12px;line-height:24px;color:#919797;text-align:center;margin:0 auto;">
+		© 2015 - 2019 桂林理工大学易班学生工作站
+	</view>
+	<view class="copyright" style="font-size:12px;line-height:24px;color:#919797;text-align:center;margin:0 auto;">
+		All Rights Reserved.
+	</view>
+</view>

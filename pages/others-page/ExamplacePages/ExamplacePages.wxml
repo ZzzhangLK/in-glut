@@ -1,0 +1,35 @@
+<web-view src="https://yiban.glut.edu.cn/i/u/628c835a91c0fcf6853d77f4bca0e46810d3ea5c.html?access_token={{access_token}}"></web-view>
+<!-- <view class="top_img"></view>
+<view class="time">
+	<text class="today">今天是 2019-04-01</text>
+</view>
+<view class="exam">
+	<view class="exam_text">
+		<view class="exam_name">高等数学<view class="exam_state">正常考试</view></view>
+		<view class="exam_time_img"></view>
+		<view class="exam_time">2019-04-01 04:01</view>
+		<view class="exam_place_img"></view>
+		<view class="exam_place">06601D</view>
+		<view class="exam_type">已结束</view>
+	</view>
+</view>
+<view class="exam">
+	<view class="exam_text">
+		<view class="exam_name">高等数学<view class="exam_state">正常考试</view></view>
+		<view class="exam_time_img"></view>
+		<view class="exam_time">2019-04-01 04:01</view>
+		<view class="exam_place_img"></view>
+		<view class="exam_place">06601D</view>
+		<view class="exam_type">已结束</view>
+	</view>
+</view>
+<view class="exam">
+	<view class="exam_text">
+		<view class="exam_name">高等数学<view class="exam_state">正常考试</view></view>
+		<view class="exam_time_img"></view>
+		<view class="exam_time">2019-04-01 04:01</view>
+		<view class="exam_place_img"></view>
+		<view class="exam_place">06601D</view>
+		<view class="exam_type">已结束</view>
+	</view>
+</view> -->

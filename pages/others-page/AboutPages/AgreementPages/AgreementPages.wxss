@@ -1,0 +1,80 @@
+.img{
+	background-image:url(https://yiban.glut.edu.cn/glutlife/img/about_pic_bg.png);
+	background-size: 100% 100%;
+  margin: 0 auto;
+  height: 47.618vw;
+  width: 100%;
+  position:relative;
+}
+.logo{
+	background-image:url(https://yiban.glut.edu.cn/zlk/image/wxapp/image/in桂工_透.png);
+	background-size: 100% 100%;
+  height:20vw;
+  width:20vw;
+  margin:0 auto;
+  top:6.618vh;
+  position:relative;
+  border-radius: 50px;
+  /*border:1px solid #D10851;*/
+  box-shadow: 3px 3px 30px #dddddd;
+  background-color: #ffffff;
+}
+.about{
+	position:relative;
+	width:100%;
+	font-size:14px;
+	color:#9f9f9f;
+}
+.title{
+	font-size:15px;
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	margin-bottom:10px;
+  text-indent:0;
+  letter-spacing:0px !important;
+}
+.article{
+	width:90%;
+	margin:0 auto;
+}
+.article>p{
+	text-indent:28px;
+	letter-spacing:0.3vw;
+	line-height:30px;
+}
+.privacy{
+	font-size:12px;
+	color:#76E4FF;
+	text-align:center;
+}
+.small_title{
+	font-size:15px;
+	color:black;
+	font-weight:bold;
+	text-indent:0px!important;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.small_title1{
+	margin-top:0;
+	margin-bottom:0;
+	line-height:35px;
+	letter-spacing:0.3vw;
+	text-indent:28px;
+}
+.small_title2{
+	margin-top:0;
+	line-height:35px;
+	letter-spacing:0.3vw;
+	text-indent:28px;
+}
+view{
+	line-height:35px;
+	letter-spacing:0.3vw;
+	text-indent:28px;
+}
+.copyright{
+letter-spacing:0px !important;
+text-indent:0px !important; 
+}

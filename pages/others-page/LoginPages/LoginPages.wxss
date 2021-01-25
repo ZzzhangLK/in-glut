@@ -1,0 +1,156 @@
+page{
+	background-color:#007DF0;
+	color:#007DF0;
+	height:100%;
+	width:100%;
+	overflow:hidden!important;
+}
+.block{
+	height:500px;
+  width:500px;
+  position: absolute;
+  top:-280px;
+  left:10px;
+	border-radius:100px;
+	background-color:#ffffff;
+}
+.block1{
+	height:500px;
+  width:500px;
+  position: absolute;
+  bottom:10px;
+  left:-200px;
+	border-radius:100px;
+	background-color:#ffffff;
+}
+.deg{
+transform: rotate(45deg);
+-ms-transform: rotate(45deg);		/* IE 9 */
+-webkit-transform: rotate(45deg);	/* Safari and Chrome */
+-o-transform: rotate(45deg);		/* Opera */
+-moz-transform: rotate(45deg);		/* Firefox */
+}
+.logo{
+	background-image:url(https://yiban.glut.edu.cn/zlk/image/wxapp/image/in桂工_透.png);
+	background-size: 100% 100%;
+  height:20vw;
+  width:20vw;
+  position:absolute;
+  top:185px;
+  right:20%;
+  border-radius: 50%;
+  /*border:1px solid #D10851;*/
+  /* box-shadow: 3px 3px 30px #dddddd; */
+  background-color: #ffffff;
+}
+@media screen and (max-width:360px) { 
+.logo{
+	display:none;
+}  
+} 
+
+.hello{
+	position:absolute;
+	font-size:40px;
+	top:80px;
+	right:15px;
+}
+.title{
+	position:absolute;
+	font-size:16px;
+	top:145px;
+	right:15px;
+}
+.login{
+	position:absolute;
+	font-size:40px;
+	bottom:500px;
+	left:15px;
+}
+.please{
+	position:absolute;
+	font-size:18px;
+	bottom:400px;
+	left:15px;
+}
+.input{
+	position:absolute;
+	width:280px;
+	bottom:280px;
+	left:15px;
+  color:black;
+}
+.phone_input{
+	width:100%;
+	font-size:16px;
+	margin-bottom:30px;
+	border:1px solid #007DF0;
+  border-bottom-width:1px;
+  border-top-width:0px;
+  border-right-width:0px;
+  border-left-width:0px;
+  background-color:rgba(0,0,0,0);
+}
+.password_input{
+	position:relative;
+	width:100%;
+	font-size:16px;
+	border:1px solid #007DF0;
+  border-bottom-width:1px;
+  border-top-width:0px;
+  border-right-width:0px;
+  border-left-width:0px;
+  background-color:rgba(0,0,0,0);
+}
+.into{
+	/* background-image:url(https://yiban.glut.edu.cn/zlk/image/wxapp/image/右.png); */
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEqUlEQVR4Xu2dz27TQBCHZ8V/UUQiJB6ACwcuXLjA23BHFVKhqpTQQnroAaQeuPZBQKoqEIjHaQLXpkZuGxSqJl7b49iz8/Xq9Xjm9/t2duPGcRD+XCsQXFdP8QIAziEAAABwroDz8ukAAOBcAefl0wEAwLkCzsunAwCAcwWcl08HAADnCjgvnw4AAM4VcF4+HQAAnCvgvHw6AAA4V8B5+XQAAHCugPPy6QAA4FwB5+XTAQDAuQLLyh9O3omc3pBRf5iqSnSARc4OxpsSZO/i8EcZ9d6kCAEAXOXq/+bPRiQJAQBcBmAwWZeQ7S+Y7clBAADzTi83P8lOAAAzW4fHL0XCQdw6n+2msjEEgJnj238eyun0l4g8ioNAklgOAGDebYcQAMDl6e4MAgC4qt/nEEyn3yXI49SXAwBY5PDW7wdy7fRn6hAAwLIp7gACACjq8YlDAABFAOTHE4YAAGIASBgCAIgFYAbB9ek3kfAk8rTO3ywCgEgn/w3bOe7JVH6kAgEAlAUgH58QBABQBYCEIACAqgAkAgEA1AEgAQgAoC4AxiEAAA0AZhCchCMJ8jQyZCc+IgJApFtRw95m9+TmJP8vohkIACDK2RKDSkOQfZZR/1WJK6gOBQBVOS+CGYIAAJoAII9pBAIAaAoAIxAAQJMAGIAAAJoGYAbBrcmhiDyLu9zqNoYAEOdI/VEb2V25MznqGgQAUN/a+AgdhAAA4u3TGdkxCABAx9ZyUToEAQCUs05v9E62JifjLxLC86igmXyS3d5G1NgSgwCghFjqQ0t3grAvo/uvNfOoD8BwnGkmRKwiBXQhAIAivbt5fE9GvS2N1ABAQ8V2YqhAAADtmKdz1Sx7L7v9nTrBAKCOeq2fm32QUX+7ThoAUEe9ds9lCWhX/1avrmJ+XgEdoFUfq1y8ax8Dq9TAOecK7GS35WR8GH03UHTN1+kAmFlNgbO7gOMvIuFFZIBGvkZefwmIzJ5hcwrk5t8ef42f+c19QQQAVk1m6fv/zZnPEuDcfABYJQAdm/mz0lkCVgFBR82nAzg3HwCaBiB/OqijXwdnCViF+aWeFG52t7+oXPYATYBg5LlAlgDn5gOANgCGZj57gNbN78YrZ9gDaICQ/3Ckwd8HYgnQMt/wT8fSAepAkMBPxgJAVQASMJ8lwLn5AFAFgERmPh8Dq5ifvzqGF0ZUUS6BcxJ9bxCbwBg2EzWfPYBz8wGgCICEZz6bQMw/U4A9wFUg8PLooumR8HFeH5+wuUWlOTOfJWAeCIfmA8A8AMPjlyLhoKhJnB/PdmXUH8aN7fYoNoHz/gwm6xKy/QLLGnlKty1MAOCy8sshSMp8loBF024w3pQge5cOJ2c+ACzru/9DkKT5AFC08A4m2xKyNRn13hQNtXqcPYBV55TyBgAlIa2GAQCrzinlDQBKQloNAwBWnVPKGwCUhLQaBgCsOqeUNwAoCWk1DABYdU4pbwBQEtJqGACw6pxS3gCgJKTVMABg1TmlvAFASUirYQDAqnNKeQOAkpBWwwCAVeeU8gYAJSGthgEAq84p5Q0ASkJaDQMAVp1TyhsAlIS0GgYArDqnlDcAKAlpNcxf1dylkI+Ww5YAAAAASUVORK5CYII=);
+	background-size:100% 100%;
+	height:80px;
+	width:80px;
+	bottom:180px;
+	left:250px;
+	position:absolute;
+}
+.lost{
+	position:absolute;
+	font-size:15px;
+	top:0px;
+	left:0px;
+}
+.none{
+	position:absolute;
+	font-size:15px;
+	top:0px;
+	right:50px;
+}
+.privacy{
+	font-size:12px;
+	color:#007DF0;
+	text-align:center;
+  position:absolute;
+  bottom:150px;
+  left:18px;
+}
+.account_issue{
+  position:absolute;
+  width:200px;
+  bottom:230px;
+	left:20px;
+}
+.account_issue_mid{
+  position:absolute;
+	font-size:15px;
+	top:0px;
+	left:66px;
+}
+.guest{
+	font-size:13px;
+  color:#007DF0;
+  text-align:center;
+  position:absolute;
+  bottom:245px;
+  left:20px;
+  color:#9f9f9f;
+  font-style:italic;
+}

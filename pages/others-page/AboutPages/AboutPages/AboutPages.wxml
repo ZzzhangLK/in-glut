@@ -1,0 +1,28 @@
+<view class="img">
+	<view class="logo"></view>
+</view>
+<view class="about">
+	<view class="title">- in桂工·小程序 -</view>
+	<view class="article">
+		<text space="emsp">  in桂工是由桂林理工大学易班学生工作站技术中心开发，一款方便快捷，无需下载安装即可在微信客户端即开即用的APP,有别于一般需要下载安装的APP，也不同于微信公众号，具有方便快捷的特点。\n</text>
+		<text space="emsp">  in桂工具有许多方便同学们的功能，服务于广大的桂林理工大学学生们。小程序可以用来成绩查询、考试查询、查询课表、图书馆、一卡通、校内外资讯、校历等等，集多种功能于一身。还在担心错过考试?那还不赶紧使用我们的轻应用。\n</text>
+		<text space="emsp">  in桂工也将不断的进行完善，除了基础的功能以外，日后还会推出各种更加强大实用的功能，各位同学们敬请期待吧!\n</text>
+		<text space="emsp">  欢迎广大同学们一起见证轻应用的不断完善，交流反馈群: 362441357。</text>
+	</view>
+	<view class="title">- 桂林理工大学易班学生工作站 -</view>
+	<view class="article">
+		<text space="emsp">  桂林理工大学易班学生工作站成立于2015年10月，现已有超过100位成员分别负责技术、设计、运营推广等工作。截止到现在，桂林理工大学易班学生工作站技术中心已经开发“桂工应用广场”、“桂工成绩查询”等易班轻应用。其中，“in桂工”现已有超过3万用户，日均活跃量超过10000人次。\n</text>
+		<text space="emsp">  出于对技术的热爱和对设计的追求，桂林理工大学易班学生工作站成员本着为桂工学生服务的出发点，创造解决生活学习中存在的痛点的可能，开发产品，服务同学，提升技术能力。易班,我们在创造可能。</text>
+	</view>
+</view>
+<view style="height:10vh;"></view>
+<view class="privacy" bindtap="agreement">用户协议  |  隐私政策</view>
+<view style="height:2vh;"></view>
+<view id="footer" style="bottom:0%;margin:0 auto;width:100%;left:0;">
+	<view class="copyright" style="font-size:12px;line-height:24px;color:#919797;text-align:center;margin:0 auto;">
+		© 2015 - 2019 桂林理工大学易班学生工作站
+	</view>
+	<view class="copyright" style="font-size:12px;line-height:24px;color:#919797;text-align:center;margin:0 auto;">
+		All Rights Reserved.
+	</view>
+</view>

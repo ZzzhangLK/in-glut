@@ -1,0 +1,35 @@
+.title{
+	position:relative;
+	width:90%;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:20px;
+	font-weight:bold;
+}
+.from{
+	font-size:15px;
+	color:#888888;
+	position:relative;
+	width:90%;
+	margin:0 auto;
+}
+.time{
+	position:absolute;
+	left:0;
+}
+.author{
+	position:absolute;
+	left:140px;
+}
+.text{
+	position:relative;
+	font-size:15px;
+	color: black;
+  letter-spacing: 0.5vw;
+  margin:0 auto;
+  width:90%;
+  top:40px;
+  text-indent:30px;
+  line-height:25px;
+}

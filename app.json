@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/others-page/LoginPages/LoginPages",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/discover/discover",
+    "pages/app/app",
+    "pages/webview/webview",
+    "pages/others-page/GradePages/GradePages",
+    "pages/others-page/ExamplacePages/ExamplacePages",
+    "pages/others-page/AboutPages/AboutPages/AboutPages",
+    "pages/others-page/ArticlePages/ArticlePages",
+    "pages/others-page/TweetsPages/TweetsPages",
+    "pages/others-page/ModalPages/ModalPages",
+    "pages/others-page/AboutPages/TimelinePages/TimelinePages",
+    "pages/others-page/AboutPages/AgreementPages/AgreementPages",
+    "pages/others-page/AboutPages/HelpPages/HelpPages",
+    "pages/others-page/AboutPages/NoAccountPages/NoAccountPages",
+    "pages/others-page/AboutPages/NoPasswordPages/NoPasswordPages",
+    "pages/others-page/AboutPages/SettingPages/SettingPages"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fcfcfc",
+    "navigationBarTitleText": "\u200E",
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#3f51b5",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "color": "#444444",
+    "list": [
+      {
+        "selectedIconPath": "images/首页_act.png",
+        "iconPath": "images/首页.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/轻应用_act.png",
+        "iconPath": "images/轻应用.png",
+        "pagePath": "pages/app/app",
+        "text": "轻应用"
+      },
+      {
+        "selectedIconPath": "images/指南针_act.png",
+        "iconPath": "images/指南针.png",
+        "pagePath": "pages/discover/discover",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/我的_act.png",
+        "iconPath": "images/我的.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

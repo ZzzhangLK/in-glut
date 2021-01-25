@@ -1,0 +1,183 @@
+page{
+  padding:0;
+  margin:0;
+  /* background-color:#fcfcfc; */
+  background-color:#ffffff;
+}
+.my{
+	background-image:url(https://yiban.glut.edu.cn/zlk/image/wxapp/image/mine_pic_card.png);
+	background-size:100% 100%;
+	width:94%;
+	margin:0 auto;
+	height:170px;
+	top:2.618vw;
+	position:relative;
+  border-radius: 15px;
+  box-shadow: 1px 1px 30px #cce6ff;
+  /* box-shadow: 1px 1px 30px #76E4FF; */
+	transition: 0.5s;
+}
+.my:active{
+	transform:scale(0.8);
+}
+.head{
+	/* background-image:url(http://img02.fs.yiban.cn/11613842/avatar/user/); */
+	background-size:100% 100%;
+	height:75px;
+	width:75px;
+	position:absolute;
+	border-radius:50px;
+	border:2px solid #ffffff;
+  top:-5px;
+  left:-5px;
+}
+.userinfo-avatar {  
+  overflow:hidden;  
+  position:absolute;  
+  height:70px;
+	width:70px;
+  border-radius: 50%;  
+  border: 2px solid #fff;  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  top:30%;
+	left:5%;
+}  
+.text{
+	color:#ffffff;
+  font-size:12px;
+  position:absolute;
+  left:32%;
+  top:32%;
+}
+.nick{
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.beta{
+  color:#ffffff;
+  font-size:12px;
+  position:absolute;
+  right:10px;
+  bottom:0px;
+}
+.table{
+	position:relative;
+  height:auto;
+  top:35px;
+  min-height:150px;
+  border-radius: 20rpx;
+  box-shadow: 3px 3px 30px #dddddd;
+  width: 92%;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+.function:last-child
+{ 
+border: 0px solid #ffffff;
+}
+.function {
+  position: relative;
+  height: 50px;
+  /* background-image: linear-gradient( 135deg, #ffffff 50%, #5EFCE8 150%);
+  border: 0px solid #cccccc;
+  border-radius: 20rpx;
+  box-shadow: 3px 3px 30px #dddddd;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 10px;*/
+  transition: 0.5s;
+  border-bottom: 0.5rpx solid;
+  border-bottom-color:rgba(114, 130, 138, 0.2);
+}
+.function:active{
+	transform:scale(0.8);
+}
+button:active{
+	transform:scale(0.8);
+}
+.button-hover {
+color:rgba(0, 0, 0,1);
+background-color:#ffffff;
+}
+button{
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:14px;
+  padding-right:14px;
+  box-sizing:border-box;
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  line-height:20px;
+  border-radius:0px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#000000;
+  background-color:rgba(255,255,255,0);
+}
+button::after {
+  border: none;
+}
+.img{
+	background-size: 100% 100%;
+	height: 23px;
+  width: 23px;
+  top: 30%;
+  left:5%;
+	position:absolute;
+}
+.name{
+	position:absolute;
+	font-size:13px;
+	left: 15%;
+  top: 33%;
+}
+.open{
+	position:absolute;
+	right:5%;
+  top: 35%;
+  background-image:url(https://yiban.glut.edu.cn/glutlife/grade/img/箭头右.png);
+  background-size: 100% 100%;
+	height:15px;
+  width:15px;
+}
+.a{
+	background-image:url(https://yiban.glut.edu.cn/glutlife/img/帮助.png);
+}
+.c{
+	background-image:url(https://yiban.glut.edu.cn/glutlife/img/更新.png);
+}
+.b{
+	background-image:url(https://yiban.glut.edu.cn/glutlife/img/提示.png);
+}
+.d{
+	background-image:url(https://yiban.glut.edu.cn/zlk/image/wxapp/image/设置.png);
+}
+.e{
+  background-image:url(https://yiban.glut.edu.cn/zlk/image/wxapp/image/send.png);
+}
+.quit{
+	position:relative;
+	height:45px;
+	width:85%;
+	background-image: linear-gradient( 135deg, #ffffff 0%, #76E4FF 50%);
+	text-align:center;
+	margin:0 auto;
+	display:block;
+	border:none;
+	color:#ffffff;
+	letter-spacing: 0.5vw;
+	font-size:16px;
+	border-radius:25px;
+	border: 0px solid #cccccc;
+  box-shadow: 3px 3px 30px #dddddd;
+  transition: 0.5s;
+  line-height:45px;
+  margin-top:60px;
+}
+.quit:active{
+	transform:scale(0.8);
+}

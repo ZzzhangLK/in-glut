@@ -1,0 +1,12 @@
+<view wx:for="{{app.app}}" wx:for-item="abc">
+  <view class="app_title">
+    <text>{{index}}</text>
+    <text class="red" wx:if="{{index=='精选推荐'}}">New!</text>
+  </view>
+  <view class="app_table">
+    <view class="app" bindtap='openapp' data-hash='{{cba[0]}}' data-color='{{cba[2]}}' wx:for="{{abc}}" wx:for-item="cba">
+      <view class="app_icon" style="background-image:url(https://yiban.glut.edu.cn/i/img/?hash={{cba[0]}}&version={{cba[3]}});"></view>
+      <view class="app_name">{{cba[1]}}</view>
+    </view>
+  </view>
+</view>

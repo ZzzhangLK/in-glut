@@ -1,0 +1,156 @@
+<!--index.wxml-->
+<view class="hello">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+    <block wx:for="{{home[0]}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item" style="background-image:url({{item[0]}});" bindtap="tweets" data-link="{{item[2]}}" wx:key="2">
+          <!-- <view class="hello_title">一览</view> -->
+          <!-- <view class="hello_text">
+            <view class="now_day">{{time}}</view>
+            <view class="week">{{week}}</view>
+          </view> -->
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="table">
+  <view class="function no_ani">
+    <view class="function_title ani">
+      <view class="function_img"></view>
+      <view class="function_title_text">快捷功能</view>
+      <view class="function_more" bindtap="applist">更多 ></view>
+    </view>
+    <view class="fast_function">
+      <view class="fast_function_small" bindtap='openapp' data-hash='{{item[0]}}' data-color='{{item[2]}}' wx:for="{{home[1]}}" wx:key="0">
+        <view class="fast_function_small_icon icon_d" style="background-image:url(https://yiban.glut.edu.cn/i/img/?hash={{item[0]}}&version={{item[3]}});"></view>
+        <view class="fast_function_small_name">{{item[1]}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="function_full">
+    <view class="function_half left card_weight" bindtap="openapp" data-color="#FFBC25" data-hash="3f2248cf2a90e4f5d6d2766360e695ab5ecedfd5">
+      <view class="money">
+        <view class="money_tips">余额</view>
+        <view class="money_text {{home[2][0]==''?'none':''}}">￥
+          <text class="money_num">{{money[0]}}</text>
+        </view>
+      </view>
+      <view class="img_bug" wx:if="{{home[2][0]==''}}"></view>
+      <view class="eye {{home[2][0]==''?'none':''}}" catchtap="hidden_money"></view>
+      <view class="none_exam" wx:if="{{home[2][0]==''}}">哇哦，出错了！</view>
+      <view class="money_change {{home[2][0]==''?'none':''}}">
+        <view class="money_change_name">充值：</view>
+        <view class="money_change_num">￥\t{{money[1]}}</view>
+        <view style="height:10px;"></view>
+        <view class="money_change_name">支出：</view>
+        <view class="money_change_num">￥\t{{money[2]}}</view>
+      </view>
+    </view>
+    <view class="function_half right" bindtap="openapp" data-color="#659AF2"data-hash="628c835a91c0fcf6853d77f4bca0e46810d3ea5c">
+      <view class="notify_tips">考试</view>
+      <view class="function_half_img" wx:if="{{home[3].kaoshi==true}}"></view>
+      <view class="none_exam_img" wx:if="{{home[3].kaoshi==false}}"></view>
+      <view class="none_exam" wx:if="{{home[3].kaoshi==false}}">最近没有考试呢！</view>
+      <view class="sprot_text" wx:if="{{home[3].kaoshi==true}}">距离最近的考试\n还有\t
+        <text class="sprot_num">{{home[3].restdays}}</text>\t天</view>
+    </view>
+  </view>
+  <view class="function" bindtap="openapp" data-color="#659AF2" data-hash="d9345acc5c4df83194b0e463a82726c9819c1b21">
+    <view class="function_title">
+      <view class="function_img"></view>
+      <view class="function_title_text">今日课表</view>
+      <view class="switch">
+        <view class="switch_left"  catchtap='switch_left'></view>
+        <view class="switch_num" catchtap='switch_now'>{{week}}</view>
+        <view class="switch_right" catchtap='switch_right'></view>
+      </view>
+    </view>
+    <view class="function_none" wx:if="{{data.xh.length<=7}}">
+    <view class="function_none_img"></view>
+      <view class="function_none_text">哇哦，你可能不是学生哦~</view>
+    </view>
+    <view class="function_none" wx:if="{{data.xh.length>7&&home[7].jw_bind!=true}}">
+    <view class="function_none_img"></view>
+      <view class="function_none_text">唔...你还没有绑定教务账号呢...</view>
+    </view>
+    <view class="function_none" wx:if="{{classtable.classtable[conf_week][conf_day]==''}}">
+    <view class="function_none_img"></view>
+      <view class="function_none_text">呵，就算没有课也要努力学习呀...</view>
+    </view>
+    <view class="function_none" wx:if="{{conf_week<='0'}}">
+    <view class="function_none_img"></view>
+      <view class="function_none_text">啊哈...可以看下个学期的课表了呢</view>
+    </view>
+    <view class="classtable">
+      <view class="class_table class_{{index%4+1}}" wx:for="{{classtable.classtable[conf_week][conf_day]}}" wx:key="0">
+        <view class="class_room">@{{item[1]}}</view>
+        <view class="class_name">{{item[0]}}</view>
+        <view class="class_time">{{item[4]}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="function function_notify" bindtap='discover'>
+    <view class="function_title">
+      <view class="function_img"></view>
+      <view class="function_title_text">通知公告</view>
+    </view>
+    <view class="notify_box">
+      <view class="notify" wx:for="{{home[4]}}" wx:key="0">
+        <view class="notify_point"></view>
+        <view class="notify_text">{{item[0]}}</view>
+        <view class="notify_time">{{item[1]}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="function" bindtap='openapp' data-hash='55b6ffd8b204d22d60409529f27d73ee5061fc76' data-color='#3f51b5'>
+    <view class="function_title">
+      <view class="function_img"></view>
+      <view class="function_title_text">图书馆</view>
+    </view>
+    <view class="function_none" wx:if="{{home[5].length==0}}">
+    <view class="function_none_img"></view>
+      <view class="function_none_text">你当前没有正在借阅的书哦~</view>
+    </view>
+    <view class="librarytable">
+      <view wx:for="{{home[5]}}" class='library_table' wx:key="0">
+        <view class="library_table class_{{index%4+1}}">
+          <view class="library_name">{{item.text}}</view>
+          <view class="library_time">{{item.date}}到期</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="function" style="display:none;">
+    <view class="function_title">
+      <view class="function_img"></view>
+      <view class="function_title_text">每日一句</view>
+      <view class="one_day_text"></view>
+    </view>
+  </view>
+
+<view class="article {{item[0]=='type-1'?'article_highter':''}}" bindtap="tweets" data-link="{{item[3]}}" wx:for="{{home_rss[0]}}" wx:key="2">
+  <view class="article_imgs">
+		<view class="article_img article_img_one" style="background-image:url({{item[4]}});"></view>
+  	<view class="article_img article_img_two" style="background-image:url({{item[5]}});"></view>
+  	<view class="article_img article_img_three" style="background-image:url({{item[6]}});"></view>
+  	<view class="article_img article_img_four" style="background-image:url({{item[7]}});"></view>
+	</view>
+  <view class="article_text {{item[0]=='type-1'?'no_left':''}} {{item[0]=='type-3'?'no_left':''}}">
+	  <view class="article_title {{item[0]=='type-1'?'big_width':''}}">{{item[1]}}</view>
+    <view class="article_text_desc {{item[0]=='type-1'?'big_width':''}}">{{item[2]}}</view>
+  </view>
+</view>
+  <view class="bottom"></view>
+  <view class="bottom_text">哎呀，到底了</view>
+</view>
+
+
+
+<!-- <view class="Modal_background"style='display:{{display}}'></view>
+<view class="Modal_box" style='display:{{display}}'>
+	<view class="Modal_img" style="background-image:url({{home[8][0].image}});"></view>
+	<view class="Modal_bottom">
+		<view class="Modal_buttom Modal_no" bindtap='hideModal'>忍心拒绝</view><view class="Modal_buttom" bindtap="modalpages" data-link="{{home[8][0].url}}">进去看看</view>
+	</view>
+</view> -->

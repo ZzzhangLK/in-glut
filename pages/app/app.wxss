@@ -1,0 +1,61 @@
+/* pages/app/app.wxss */
+page{
+	background-color:#ffffff;
+}
+.red{
+  color:#DC143C;
+  font-weight:bold;
+  font-size:13px;
+  margin-left:5px;
+}
+.app_title{
+	font-size:16px;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:0px;
+	text-align:left;
+	margin-left:20px;
+}
+.app_table{
+	width:96%;
+	position:relative;
+	margin:0 auto;
+}
+.app{
+	width:25%;
+	height:95px;
+	display:inline-block;
+	/*border:2px solid black;*/
+	overflow:hidden;
+	transition: 0.5s;
+}
+.app:active{
+	transform:scale(0.8);
+}
+.app_icon{
+	background-size:100% 100%;
+	position:relative;
+	margin:0 auto;
+	top:16px;
+	height:45px;
+	width:45px;
+	border: 0px solid #cccccc;
+  border-radius:50px;
+  /* box-shadow: 3px 3px 30px #dddddd; */
+}
+.app_icon_back{
+	background-color:#ffffff;
+}
+.app_name{
+	position:relative;
+	margin:0 auto;
+	font-size:12px;
+	line-height:12px;
+	color:black;
+	height:24px;
+	text-align:center;
+	top:26px;
+}
+.n_one{
+	background-image:url(http://yiban.glut.edu.cn/index/images/n_one.png);
+}
