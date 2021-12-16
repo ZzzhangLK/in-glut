@@ -15,7 +15,8 @@
 #### 体验我们的产品
 
 <p align="center">
-<img src="https://s3.ax1x.com/2021/01/25/sOD176.jpg" alt="微信小程序" width="168" height="168" style="margin-right:2.5%;">
+<!-- <img src="https://s3.ax1x.com/2021/01/25/sOD176.jpg" alt="微信小程序" width="168" height="168" style="margin-right:2.5%;"> -->
+<img src="http://inews.gtimg.com/newsapp_ls/0/14312343926/0" alt="微信小程序" width="168" height="168" style="margin-right:2.5%;">
 <img src="https://s3.ax1x.com/2021/01/25/sODfun.jpg" alt="qq小程序" width="168" height="168" style="margin-left:2.5%;">
 </p>
 
