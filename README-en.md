@@ -1,58 +1,58 @@
-## 「in桂工」小程序
+## 「inGLUT」Mini Program
 
 English | [简体中文](./README.md)
 
-### 介绍
+### introduce
 
-「in桂工」小程序是由桂林理工大学易班学生工作站开发，一款方便快捷，无需下载安装即可在微信客户端即开即用的 APP，有别于一般需要下载安装的 APP，也不同于微信公众号，具有方便快捷的特点。
+「inGLUT」Mini Program is developed by the Yiban student workstation of Guilin University of Technology. It is a convenient and fast app that can be used on the WeChat client without downloading and installing. It is different from the apps that generally need to be downloaded and installed, and also different from the WeChat official account. Convenient and fast.
 
-#### 了解我们的产品
-
-<p align="center">
-<img src="https://s3.ax1x.com/2021/01/26/sOReyD.png" alt="微信小程序" width="824.5" height="400">
-</p>
-
-#### 体验我们的产品
+#### Learn about our products
 
 <p align="center">
-<img src="https://s3.ax1x.com/2021/01/25/sOD176.jpg" alt="微信小程序" width="168" height="168" style="margin-right:2.5%;">
-<img src="https://s3.ax1x.com/2021/01/25/sODfun.jpg" alt="qq小程序" width="168" height="168" style="margin-left:2.5%;">
+<img src="https://s3.ax1x.com/2021/01/26/sOReyD.png" alt="Mini Program" width="824.5" height="400">
 </p>
 
-### 项目文件结构
+#### Experience our products
+
+<p align="center">
+<img src="http://inews.gtimg.com/newsapp_ls/0/14312343926/0" alt="Mini Program" width="168" height="168" style="margin-right:2.5%;">
+<img src="https://s3.ax1x.com/2021/01/25/sODfun.jpg" alt="Mini Program" width="168" height="168" style="margin-left:2.5%;">
+</p>
+
+### Project file structure
 
 ```
 project
 │
-└───images 静态图片
+└───images `Static picture`
 │
-└───pages 模块页面
+└───pages `Module pages`
 │   │
-│   └───app 应用页面
+│   └───app `Application page`
 │   │    │   app.js
 │   │    │   app.json
 │   │    │   app.wxml
 │   │    │   app.wxss
 │   │
-│   └───discover 发现页面
+│   └───discover `Discovery page`
 │   │    │   discover.js
 │   │    │   discover.json
 │   │    │   discover.wxml
 │   │    │   discover.wxss
 │   │
-│   └───index 主页
+│   └───index `Home page`
 │   │    │   index.js
 │   │    │   index.json
 │   │    │   index.wxml
 │   │    │   index.wxss
 │   │
-│   └───my 我的页面
+│   └───my `My page`
 │   │    │   my.js
 │   │    │   my.json
 │   │    │   my.wxml
 │   │    │   my.wxss
 │   │
-│   └───others-page 其他页面
+│   └───others-page `Other pages`
 │   │    │   AboutPages
 │   │    │   ExamplacePages
 │   │    │   LoginPages
@@ -61,13 +61,13 @@ project
 │   │    │   GradePages
 │   │    │   ModalPages
 │   │
-│   └───webview 网页组件
+│   └───webview `Web component`
 │        │   webview.js
 │        │   webview.json
 │        │   webview.wxml
 │        │   webview.wxss
 │
-│───utils 工具辅助函数
+│───utils `Tool auxiliary functions`
 │   │   util.js
 │
 │   .editorconfig
@@ -88,39 +88,39 @@ project
 
 ------
 
-### 桂林理工大学易班学生工作站
+### Guilin University of Technology Yiban Student Workstation
 
-[桂林理工大学易班学生工作站的主页](https://yiban.glut.edu.cn)
+[Guilin University of Technology Yiban Student Workstation](https://yiban.glut.edu.cn)
 
-桂林理工大学易班学生工作站是由桂林理工大学信息办指导建设，以学生开发为核心的互联网工作团队。
+The Yiban student workstation of Guilin University of Technology is an Internet work team under the guidance of the Guilin University of Technology Information Office, with student development as the core.
 
-倡导使用新技术、优秀的技术去实现智慧校园，服务同学。
+Advocate the use of new and excellent technology to realize a smart campus and serve students.
 
-本项目至少会持续维护到桂林理工大学本科生 3.x 版本结束。
+This project will continue to be maintained at least until the end of version 3.x for undergraduates of Guilin University of Technology.
 
 ------
 
-### 开源许可
+### Open source license
 
-本项目使用开源许可证 `License AGPLv3` ，代码开源仅供学习。
+This project uses the open source license `License AGPLv3`, and the open source code is only for learning.
 
-请认真阅读并遵守以下开源协议
+Please read carefully and abide by the following open source agreements
 
 `AGPLv3` [GNU Affero General Public License v3.0](https://github.com/GreenPomelo/Undergraduate/blob/master/LICENSE)
 
-#### 桂林理工大学易班学生工作站开源计划：
+#### Guilin University of Technology Yiban Student Workstation Open Source Project:
 
-希望能够将实战中的技术成果回报社区，并且鼓励社区为这个项目做出贡献，大家可以通过 `Pull Requests` 的方式帮我们解决目前存在的不足，或者通过 `Issues` 告知我们。
-
-------
-
-### 桂林理工大学易班学生工作站招新计划：
-
-桂林理工大学易班学生工作站持续招新，对象为桂林理工大学全日制本科生，主要以大二大三在校学生为主，大一能力强者亦可。招新岗位为技术、外联、运营、办公、程序员鼓励师......希望有兴趣的同学能投递简历至`yiban@glut.edu.cn`，一起来用爱发电，为桂工做出更多方便师生的项目。
+I hope to return the technical achievements in actual combat to the community and encourage the community to contribute to this project. You can help us solve the current deficiencies through the method of "Pull Requests", or let us know through the "Issues".
 
 ------
 
-### 更新日志
+### Guilin University of Technology Yiban Student Workstation Recruitment Plan:
+
+Guilin University of Technology Yiban Student Workstation continues to recruit new students. The target is Guilin University of Technology full-time undergraduates, mainly sophomores, juniors, and freshmen with strong abilities. Recruiting new positions for technology, outreach, operations, office, programmer encouragement... I hope that interested students can submit their resumes to `yiban@glut.edu.cn`, and use love to generate electricity together for Gui Work to make more projects that are convenient for teachers and students.
+
+------
+
+### Update log
 
 [CHANGELOG](./CHANGELOG.md)
 
