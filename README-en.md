@@ -24,35 +24,35 @@ English | [简体中文](./README.md)
 ```
 project
 │
-└───images `Static picture`
+└───images //`Static picture`
 │
-└───pages `Module pages`
+└───pages //`Module pages`
 │   │
-│   └───app `Application page`
+│   └───app //`Application page`
 │   │    │   app.js
 │   │    │   app.json
 │   │    │   app.wxml
 │   │    │   app.wxss
 │   │
-│   └───discover `Discovery page`
+│   └───discover //`Discovery page`
 │   │    │   discover.js
 │   │    │   discover.json
 │   │    │   discover.wxml
 │   │    │   discover.wxss
 │   │
-│   └───index `Home page`
+│   └───index //`Home page`
 │   │    │   index.js
 │   │    │   index.json
 │   │    │   index.wxml
 │   │    │   index.wxss
 │   │
-│   └───my `My page`
+│   └───my //`My page`
 │   │    │   my.js
 │   │    │   my.json
 │   │    │   my.wxml
 │   │    │   my.wxss
 │   │
-│   └───others-page `Other pages`
+│   └───others-page //`Other pages`
 │   │    │   AboutPages
 │   │    │   ExamplacePages
 │   │    │   LoginPages
@@ -61,13 +61,13 @@ project
 │   │    │   GradePages
 │   │    │   ModalPages
 │   │
-│   └───webview `Web component`
+│   └───webview //`Web component`
 │        │   webview.js
 │        │   webview.json
 │        │   webview.wxml
 │        │   webview.wxss
 │
-│───utils `Tool auxiliary functions`
+│───utils //`Tool auxiliary functions`
 │   │   util.js
 │
 │   .editorconfig
