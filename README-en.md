@@ -9,7 +9,7 @@ English | [简体中文](./README.md)
 #### Learn about our products
 
 <p align="center">
-<img src="https://s3.ax1x.com/2021/01/26/sOReyD.png" alt="Mini Program" width="824.5" height="400">
+<img src="http://inews.gtimg.com/newsapp_ls/0/14448735323/0" alt="Mini Program" width="824.5" height="400">
 </p>
 
 #### Experience our products
